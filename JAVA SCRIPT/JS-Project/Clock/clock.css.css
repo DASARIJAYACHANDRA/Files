@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: yellow;
+    color: black;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    margin-left: 20px;
+    font-size: larger;
+
+
+}
