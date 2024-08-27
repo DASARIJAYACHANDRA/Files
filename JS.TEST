@@ -1,0 +1,122 @@
+1)function CF() {
+    var celsius=16
+    var f = (celsius * 9/5) + 32;
+    console.log(f)
+    
+}
+CF()
+2)function CN(num) {
+    if (num > 0) {
+        return 'The number is positive.';
+    } else if (num < 0) {
+        return 'The number is negative.';
+    } else {
+        return 'The number is zero.';
+    }
+   
+}
+console.log(CN())
+
+
+3.let string = "Hello, World!";
+let substring = string.substring(7, 12);  
+console.log(substring);
+
+4.function length(str) {
+    const OL = str.length;
+    const TS = str.trim();
+    const TL = TS.length;
+     console.log(OL);
+     console.log(TL);
+    
+     console.log(TS);
+
+}
+length("helloworld")
+
+5.const person = {
+    name: "Jai",
+    age: 21
+  };
+  console.log(person.name)
+  console.log(person.age)
+
+6.const days = {
+    Monday: "First day of the work week",
+    Tuesday: "Second day of the work week",
+    Wednesday: "Midweek",
+    Thursday: "Almost there",
+    Friday: "Last workday of the week",
+    Saturday: "Weekend starts",
+    Sunday: "Weekend ends"
+  };
+
+  while(days){
+    
+    console.log(days)
+    break
+  }
+
+7.const nestedArray = [1, [2, [3, [4, 5]]]];
+function flattenArray(arr) {
+  while (arr.some(Array.isArray)) {
+    arr = [].concat.apply([], arr);
+  }
+  return arr;
+}
+const flattenedArray = flattenArray(nestedArray);
+
+console.log(flattenedArray);
+
+8.const array = [1, 2, 3, 4, 5];
+
+const index = array.indexOf(3);
+
+
+
+console.log(index);
+
+9.const array = [1, 2, 3, 4, 5];
+
+const containsValue = array.includes(3)
+
+console.log(containsValue);
+
+10.let fruits = ['apple', 'banana', 'orange'];
+
+fruits.pop('apple');
+
+console.log(fruits);
+
+
+11.x=document.createElement('p')
+x.innerHTML="This is a new paragraph." 
+x.appendChild('conainer')
+
+12.
+var x= document.getElementById('my Element')
+x.textContent="I was selected by ID." 
+
+13.var y=22
+if (21<y){
+    console.log("Good Night")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
